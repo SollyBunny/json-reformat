@@ -1,0 +1,27 @@
+{
+  "name": "jsonreformat",
+  "version": "1.0.0",
+  "description": "Reformat JSON data easily",
+  "main": "index.js",
+  "exports": {
+    "import": "./wrapper.mjs",
+    "require": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SollyBunny/jsonreformat.git"
+  },
+  "keywords": [
+    "json",
+    "reformat"
+  ],
+  "author": "SollyBunny",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/SollyBunny/jsonreformat/issues"
+  },
+  "homepage": "https://github.com/SollyBunny/jsonreformat#readme"
+}
