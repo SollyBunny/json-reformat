@@ -2,9 +2,9 @@
 A single function module which allows you to reformat a flat data object into any format
 
 ### Installation
-#### NPM
+##### NPM
 `npm i jsonreformat`
-### Git / Manual (don't do this)
+##### Git / Manual (don't do this)
 ```
 git clone https://github.com/SollyBunny/jsonreformat
 mkdir node_modules
@@ -12,11 +12,11 @@ mv jsonreformat node_modules
 ```
 
 ### Importing
-#### NodeJS Require
+##### NodeJS Require
 ```js
 const reformat = require("jsonreformat");
 ```
-#### ES6 Importing
+##### ES6 Importing
 ```js
 import { reformat } from "jsonreformat";
 ```
@@ -58,11 +58,11 @@ console.log(newdata);
 ```
 
 ### Small Doc
-#### `reformat(format: object, data: object)`
+##### `reformat(format: object, data: object)`
 Transform the flat object `data` into the format of `format`.  
 Values/Keys in `format` with `<` and `>` sorrounding them will be swapped with corrosponding values in `data`  .
 By adding `:` you can coerse the values into specific types EG: `<value:Number>` (value will be coersed into `Number` type)
-### `reformat.unsafe(format: object, data: object)`
+##### `reformat.unsafe(format: object, data: object)`
 This is the same as `reformat` except it doesn't check if `format` and `data` are actually objects
 
 ### Why
